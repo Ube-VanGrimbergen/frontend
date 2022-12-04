@@ -22,4 +22,4 @@ jobs:
       - name: push
         run: docker push ubevg/frontend:latest
       - name: webhook
-	      run: curl -X POST http://193.191.176.92:9000/api/webhooks/69557711-8c2a-4d6c-9c4e-0b4e7cdf6a4a
+	run: curl -X POST http://193.191.176.92:9000/api/webhooks/69557711-8c2a-4d6c-9c4e-0b4e7cdf6a4a
